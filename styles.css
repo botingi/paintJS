@@ -31,7 +31,7 @@ body .controls .controls_btn{
 body .controls .controls_btn button{
     all: unset;
     cursor: pointer;
-    background-color: #9cabbb;
+    background-color: #bec7d1;
     padding: 5px 0px;
     text-align: center;
     box-shadow: 5px 5px 5px #9e9fa0, 0 3px 5px #9e9fa0;
@@ -51,11 +51,15 @@ body .controls .controls_colors{
     display: flex;
 }
 
-body .controls .controls_colors .controls_color{
+body .controls .controls_colors .jsColor{
     width: 40px;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
     margin-right: 2px;
     box-shadow: 5px 5px 5px #646566, 0 3px 5px #9e9fa0;
+}
+
+body .controls .controls_range{
+    margin-bottom: 30px;
 }
